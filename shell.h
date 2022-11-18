@@ -3,8 +3,8 @@
 
 /*
  * File: shell.h
- * Auth: Ajisafe Lukman
- *       Salam Azeez
+ * Auth: Alex Yu
+ *       Brennan D Baraban
  */
 
 #include <fcntl.h>
@@ -23,9 +23,7 @@
 /* Global environemnt */
 extern char **environ;
 /* Global program name */
-char *name;
 /* Global history counter */
-int hist;
 
 /**
  * struct list_s - A new struct type defining a linked list.
@@ -64,7 +62,6 @@ typedef struct alias_s
 
 /* Global aliases linked list */
 alias_t *aliases;
-
 /* Main Helpers */
 ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
@@ -126,7 +123,6 @@ alias_t *add_alias_end(alias_t **head, char *name, char *value);
 void free_alias_list(alias_t *head);
 list_t *add_node_end(list_t **head, char *dir);
 void free_list(list_t *head);
-
 void help_all(void);
 void help_alias(void);
 void help_cd(void);
@@ -136,6 +132,6 @@ void help_env(void);
 void help_setenv(void);
 void help_unsetenv(void);
 void help_history(void);
-
 int proc_file_commands(char *file_path, int *exe_ret);
+
 #endif /* _SHELL_H_ */
