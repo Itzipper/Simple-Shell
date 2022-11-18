@@ -1,7 +1,7 @@
 /*
  * File: main.
  * Auth: Ajisafe Lukman
- *       Salam Azeez
+ *       Salam Afeez
  */
 
 #include "shell.h"

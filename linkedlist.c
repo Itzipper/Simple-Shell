@@ -1,7 +1,7 @@
 /*
  * File: linkedlist.c
  * Auth: Ajisafe Lukman
- *       Salam Azeez
+ *       Salam Afeez
  */
 
 #include "shell.h"

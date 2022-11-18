@@ -1,7 +1,7 @@
 /*
  * File: str_funcs1.c
  * Auth: Ajisafe Lukman
- *       Salam Azeez
+ *       Salam Afeez
  */
 
 #include "shell.h"
