@@ -1,7 +1,7 @@
 /*
  * File: helpers_2.c
  * Auth: Ajisafe Lukman
- *       Salam Azeez
+ *       Salam Afeez
  */
 
 #include "shell.h"
